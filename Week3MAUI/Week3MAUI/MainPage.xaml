@@ -9,31 +9,45 @@
             Padding="30,0"
             VerticalOptions="Center">
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
-
+            
             <Label
-                Text="Hello, World!"
+                Text="Tengu"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Start"
+                VerticalOptions="Start"/>
 
             <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
+                Text="by Joel Fagin"
+                Margin="0,-20,20,20"
                 FontSize="18"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Start" 
+                VerticalOptions="Start"
+                />
 
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
+            <Label 
+                Text="The clouds in the sky had blurred away but the samurai had his head bowed and did not notice. The air had changed, too, 
+the breeze shifting around to be borne from a new sea, but the samurai’s path was winding so the direction was lost on him. 
+The sun warmed slightly but his hat and cloak kept it from his skin and its shifting spectrum went unnoticed beneath the 
+shadows of the trees."
+                FontSize="18"
+                />
+
+            <Label
+                Text="But when the sound of the path changed beneath the stilt-like soles of his geta sandals, then he raised his eyes and noticed 
+that the world had changed around him. He frowned as he saw the trees, oddly shaped to his eyes, smelt the new air, tainted 
+with alchemical fumes, and looked upon the gravel beneath his feet, now less of a worn route through a forest than a laid 
+path, cared for and maintained. "
+                FontSize="18"
+                />
+
+            <Label
+                Text="He looked back along the way he had come, eyes narrow. Then, he turned forwards again and continued walking, resting his 
+hand on the hilt of his lone sword as he did so."
+                FontSize="18"
+                />
+
+
 
         </VerticalStackLayout>
     </ScrollView>
