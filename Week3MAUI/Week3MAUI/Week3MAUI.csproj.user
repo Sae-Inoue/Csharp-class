@@ -6,4 +6,9 @@
     <ActiveDebugProfile>HMD Global Nokia C32 (Android 13.0 - API 33)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
   </PropertyGroup>
+  <ItemGroup>
+    <MauiXaml Update="Details.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+  </ItemGroup>
 </Project>
